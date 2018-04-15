@@ -1,0 +1,90 @@
+<!-- Codificación HTML5 -->
+
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>BASE DE DATOS</title>
+    <link rel="stylesheet" type="text/css" href="Css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="Css/Estilo.css">
+    <link rel="stylesheet" type="text/css" href="fonts.Css">
+    <link rel="stylesheet" type="text/css" href="Css/social.css">
+<body>
+
+
+    <div class="social">
+        <ul>
+            <li> <a href="mailto:manuelhayder@gmail.com" target="_blank" class="icon-mail4"></a></li>
+            <li> <a href="https://plus.google.com" target="_blank" class="icon-google-plus2"></a></li>
+            <li> <a href="https://www.facebook.com/Sapzurro1/" target="_blank" class="icon-facebook2"></a></li>
+            <li> <a href="https://www.instagram.com/?hl=en" target="_blank" class="icon-instagram"></a></li>   
+        </ul>
+    </div>
+
+    <div id="contenedor">
+    <header>
+       <div>
+           <img src="images/logo.png">
+       </div>
+       <h1>BIENVENIDO AL MUNDO DE LAS BASES DE DATOS </h1>
+    </header>
+
+<nav>
+    <ul>
+        <a href="index.html"><li class="botones">Inicio</li></a>
+        <a href="Lecturas.html"><li class="botones">Lecturas</li></a>
+        <a href="Multimedia.html"><li class="botones">Multimedia</li></a>
+        <a href="Actividade.html"><li class="botones">Actividades</li></a>
+        <a href="Autores.html"><li class="botones">Autores</li></a>
+    </ul>
+
+    <div class="slider">
+        <ul>
+        <li><img src="images/cinco.jpg" alt="cinco"></li>
+        <li><img src="images/nueve.jpg" alt="nueve"></li>
+        <li><img src="images/ocho.jpg" alt="ocho"></li>
+        <li><img src="images/siete.jpg" alt="siete"></li>
+         </ul>
+    </div>
+
+<section>
+     <article>
+        <h1>ESTUDIO DE CASO </h1>
+        <p>A raíz de la firma del tratado de paz con los insurgentes, uno de los compromisos del gobierno es pagar durante dos años a cada desmovilizado la suma de un salario mínimo mensual y apoyarlo económicamente, por una sola vez, en un proyecto productivo. Para poder llevar lo anterior, el Gobierno de Colombia desea que ustedes le Diseñen una Base de Datos Relacional con el fin de llevar el control de las ayudas (pagos a los desmovilizados). </p>
+
+       <p>Para lo anterior, se deben tener los datos personales de los Desmovilizados, entre otros, tipo de identificación (Cédula de ciudadanía, Tarjeta de identidad o Cédula de Extranjería), número de identificación, municipio de expedición del documento, fecha de expedición del documento, primer nombre, segundo nombre, primer apellido, segundo apellido, alias (si lo tiene), número celular, dirección de residencia, tipo de sangre. Un desmovilizado registra una dirección de residencia y de esta se debe indicar su Municipio y Departamento. </p> 
+
+       <p> Cada desmovilizado se ubica en una Zona de concentración. Cada Zona de concentración tener el Municipio en el cual se encuentra, así mismo el Departamento que pertenece a ese municipio. Según la Divipola (División Política y Administrativa), un Departamento tiene muchos Municipios y un Municipio solo pertenece a un departamento. Las zonas de concentración están codificadas y se requiere que se registre su nombre y extensión en hectáreas.  Mientras los Desmovilizados están en la zona de concentración, el mecanismo de pago va a ser en efectivo, para lo cual a cada uno de los Desmovilizados tiene una Tarjeta de Ahorros y Pago (En la Figura se muestra una copia de una planilla en donde se imprimen los datos de la Tarjeta de Ahorro y Pago):</p>
+        <img src="images/lecturas/Vdos.jpg" width="500">
+
+       <p>Las Tarjetas se identifican por un número consecutivo único y solo pertenece a un desmovilizado. La persona que paga, el decir, el Pagador, es un delegado del gobierno, el cual tiene el número de identificación, nombres y apellidos; entre pago y pago, el Pagador pueden ser diferentes, pero solo uno es el que paga en un momento dado. Las Zonas de Concentración tienen un Jefe de Zona de concentración, El cual a su vez es un desmovilizado, y también en cualquier momento puede cambiar, de tal forma que en la Tarjeta de Pago debe quedar registrado el jefe de zona que firmó el pago. Un Desmovilizado, solo puede estar en una Zona de Concentración y ser jefe de una Zona de Concentración; una Zona de Concentración tiene solo un jefe y puede tener varios desmovilizados.  </p>
+
+       <p>Cada vez que un Desmovilizado salga de la Zona de Concentración debe informar la dirección de residencia, el Municipio y el Departamento donde va a estar ubicado y un teléfono de una Persona Contacto. Cuando sale de la Zona de Concentración se le debe seguir pagando, pero este pago se debe hacer a través de giros. De estas transacciones (Giros) se tiene un número único, fecha, el valor y la entidad por donde se realiza el giro. </p>
+
+       <p>Los Desmovilizados deben inscribir sus Proyectos Productivos, de estos se requiere registrar el valor total y las personas que participan en el Proyecto Productivo, los cuales deben ser Desmovilizados. Los datos que se desean guardar del Proyecto Productivo son el código, el nombre del proyecto, una descripción de lo que va ser el proyecto. Cada Proyecto Productivo debe estar en un Municipio 
+       </p>
+        <ul>
+            <a href="Actividade_dos.html"><li class="botones">Siguiente lectura</li></a>
+         </ul>
+    </article>
+
+    <aside>
+      
+        <h2>Mapa</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16288612.956909923!2d-74.3418115!3d4.64534495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1sen!2sco!4v1523560352745" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</aside>
+
+</section>
+<footer>
+    &reg; Universidad Nacional Abierta y a Distancia UNAD.
+</footer>
+</div>
+</body>
+
+    <script src="js/jquery-v3.3.1.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/prefixfree.js"></script> 
+</html>

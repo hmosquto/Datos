@@ -1,0 +1,100 @@
+<!-- Codificación HTML5 -->
+
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>BASE DE DATOS</title>
+    <link rel="stylesheet" type="text/css" href="Css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="Css/Estilo.css">
+    <link rel="stylesheet" type="text/css" href="fonts.Css">
+    <link rel="stylesheet" type="text/css" href="Css/social.css">
+<body>
+
+
+    <div class="social">
+        <ul>
+            <li> <a href="mailto:manuelhayder@gmail.com" target="_blank" class="icon-mail4"></a></li>
+            <li> <a href="https://plus.google.com" target="_blank" class="icon-google-plus2"></a></li>
+            <li> <a href="https://www.facebook.com/Sapzurro1/" target="_blank" class="icon-facebook2"></a></li>
+            <li> <a href="https://www.instagram.com/?hl=en" target="_blank" class="icon-instagram"></a></li>   
+        </ul>
+    </div>
+
+    <div id="contenedor">
+    <header>
+       <div>
+           <img src="images/logo.png">
+       </div>
+       <h1>BIENVENIDO AL MUNDO DE LAS BASES DE DATOS </h1>
+    </header>
+
+<nav>
+    <ul>
+        <a href="index.html"><li class="botones">Inicio</li></a>
+        <a href="Lecturas.html"><li class="botones">Lecturas</li></a>
+        <a href="Multimedia.html"><li class="botones">Multimedia</li></a>
+        <a href="Actividade.html"><li class="botones">Actividades</li></a>
+        <a href="Autores.html"><li class="botones">Autores</li></a>
+    </ul>
+
+    <div class="slider">
+        <ul>
+        <li><img src="images/cinco.jpg" alt="cinco"></li>
+        <li><img src="images/nueve.jpg" alt="nueve"></li>
+        <li><img src="images/ocho.jpg" alt="ocho"></li>
+        <li><img src="images/siete.jpg" alt="siete"></li>
+         </ul>
+    </div>
+
+<section>
+     <article>
+        <h1>TIPOS DE MODELOS</h1>
+        <h2>Modelo Jerárquico</h2>
+        <p> <img src="images/lecturas/uno.jpg" width="300"> Estas son bases de datos que, como su nombre indica, almacenan su información en una estructura jerárquica. En este modelo los datos se organizan en una forma similar a un árbol (visto al revés), en donde un nodo padre de información puede tener varios hijos. El nodo que no tiene padres se le conoce como raíz, y a los nodos que no tienen hijos se les conoce como hojas. Una de las principales limitaciones de este modelo, es su incapacidad de representar eficientemente la redundancia de datos. Los registros se organizan como colecciones de árboles, en lugar de grafos dirigidos.</p>
+
+        <h2>Modelo en red</h2>
+        <p> <img src="images/lecturas/dos.jpg" width="300"> Éste es un modelo ligeramente distinto del jerárquico, en donde su diferencia fundamental es la modificación del concepto de un nodo, permitiendo que un mismo nodo tenga varios padres (algo no permitido en el modelo jerárquico). Fue una gran mejora con respecto al modelo jerárquico, ya que ofrecía una solución eficiente al problema de redundancia de datos, pero, aun así, la dificultad que significa administrar la información en una base de datos de red ha significado que sea un modelo utilizado en su mayoría por programadores más que por usuarios finales. Colecciones de registros y las relaciones entre datos se representan mediante enlaces dirigidos.</p>
+
+        <h2>Modelo relacional</h2>
+        <p>Éste es el modelo más utilizado en la actualidad para modelar problemas reales y administrar datos dinámicamente. Tras ser postuladas su base en 1970 por IBM, Edgar Frank Codd, de los laboratorios IBM en San José (California), no tardó en consolidarse como un nuevo paradigma en los modelos de base de datos. Su idea fundamental es el uso de "relaciones". Estas relaciones podrían considerarse en forma lógica como conjuntos de datos llamados "tuplas". Pese a que esta es la teoría de las bases de datos relacionales creadas por Edgar Frank Codd, la mayoría de las veces se conceptualiza de una manera más fácil de imaginar. Esto es pensando en cada relación como si fuese una tabla que esta compuesta por registros (las filas de una tabla), que representarían las tuplas, y campos (las columnas de una tabla).</p>
+
+        <h2>Modelo relacional</h2>
+        <p>Como sabemos una Base de Datos es un conjunto de datos y relaciones que representa una interfaz uniforme de usuario, que se describe por si sola. La BD Relacional es un conjunto de relaciones formada pur un esquema y un curepo que se describen en términos de dominios, atributos, asociaciones, tupla; y la Base de Datos Relacional es una base de datos autodescriptiva por medio de sus tablas de sistema. Donde el modelo relacional satisface el espiritu de la definición introductoria. Contiene elementos de datos (tuplas) y relaciones entre ellos (por medio de atributos comunes). El SQL proporciona la interfaz uniforme.</p>
+
+         <ul>
+            <a href="Lecturas_dos.html"><li class="botones">Siguiente lectura</li></a>
+         </ul>
+       
+    </article>
+
+    <aside>
+        <h1>CONTENIDOS</h1>
+
+        <h3>2) Conceptos generales </h3>
+            <p>Sesión la cual esta creada para aclarar dudas sobre los conceptos básicos para la creación de bases de datos.</p>
+
+            <ul>
+            <a href="https://biblioteca.unad.edu.co/" target="_blank" ><li class="biblioteca">Biblioteca UNAD</li></a>
+        </ul>
+
+        
+        
+        <h2>Mapa</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16288612.956909923!2d-74.3418115!3d4.64534495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1sen!2sco!4v1523560352745" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</aside>
+
+</section>
+<footer>
+    &reg; Universidad Nacional Abierta y a Distancia UNAD.
+</footer>
+</div>
+</body>
+
+    <script src="js/jquery-v3.3.1.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/prefixfree.js"></script> 
+</html>
